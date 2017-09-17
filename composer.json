@@ -20,5 +20,15 @@
       "psr-4": {
         "talesmousinho\\LaravelApiConsume\\": "src/"
       }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "talesmousinho\\LaravelApiConsume\\ApiConsumeServiceProvider"
+            ],
+            "aliases": {
+                "Api": "talesmousinho\\LaravelApiConsume\\Facades\\ApiConsume"
+            }
+        }
     }
 }
