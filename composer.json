@@ -1,0 +1,24 @@
+{
+    "name": "talesmousinho/laravel-api-consume",
+    "description": "Laravel 5 Guzzle wrapper for easy access to API endpoints",
+    "license": "MIT",
+    "keywords": ["laravel", "laravel-5-package", "laravel-framework", "laravel5", "api", "api-client",
+        "api-wrapper", "guzzle", "guzzlehttp", "guzzle-services", "guzzle-interface", "apiconnect"],
+    "homepage": "https://github.com/talesmousinho/laravel-api-consume",
+    "authors": [
+        {
+            "name": "Tales Mousinho",
+            "email": "tales.mousinho@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "talesmousinho\\LaravelApiConsume\\": "src/"
+      }
+    }
+}
